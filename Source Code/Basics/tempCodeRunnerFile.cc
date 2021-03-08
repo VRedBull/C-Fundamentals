@@ -1,3 +1,5 @@
-g(){
-    cout<<"This is a Good function."<<endl;
-}
+; i<length; i++){
+    //     for(int j=0; j<length; j++){
+
+    //     }
+    // }
