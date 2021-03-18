@@ -38,6 +38,4 @@ int main(){
     cout<<r.getBreadth()<<endl;
     cout<<r.area()<<endl;
     cout<<r.primeter()<<endl;
-
-
 }

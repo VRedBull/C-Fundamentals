@@ -7,7 +7,7 @@ struct Data
     void display();
 };
 
-void Data::display(){
+    void Data::display(){
         cout<<x<<" "<<y<<endl;
     }
 
