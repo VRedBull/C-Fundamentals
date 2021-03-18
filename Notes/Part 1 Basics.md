@@ -374,19 +374,29 @@ There are only five types of arithmetic operations possible in pointers.
 
    This will move the pointer to back two location.
 
-5. ```c++
-   	int A[4]={23,12,89,77};
+5. Subtraction of two pointers... **p-q**
+
+    Let address of p=100, q=108.... now p-q=100-108=-8.... now -8/(sizeof(int))=-2
+
+    Now since the value is -ve this means that p<q and p is left of q by two elements.
+
+    ```c++
+    int A[4]={23,12,89,77}; 
        int *p = A, *q=&A[3];     //The pointer stores the address of the 1st element in array.
       
        cout<<p-q<<endl;
        cout<<q-p<<endl;
       
-   //output
-   -3	//this means the index of p<q... that means p is 3 elements left of q
-   3
-   ```
+    //output
+    -3	//this means the index of p<q... that means p is 3 elements left of q
+    3
+    ```
 
-   
+These are the only operations allowed in pointers. addition and multiplication and division are not allowed as it does not make any sense to do these operations on pointers.
+
+<img src="D:\Programming\Programming fundamentals\C++ Fundamentals\Notes\pointer.JPG" style="zoom:70%;" />
+
+
 
 ## Problems with pointers
 

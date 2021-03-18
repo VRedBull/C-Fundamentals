@@ -467,7 +467,9 @@ int main(){
 
 ## Structure  (Struct)
 
-Structure or **Struct** is just as same as class in C++. Only difference between class and Struct in C++ is that by default everything is private in class and everything is public in struct. To make it everything public in class we have to use keyword **public**.
+Structure or **struct** is just as same as class in C++. Only difference between class and Struct in C++ is that by default everything is private in class and everything is public in struct. To make it everything public in class we have to use keyword **public**.
+
+But in **C** language in Struct we can only define variables in struct and not any functions in it.
 
 ```c++
 #include<iostream>
@@ -506,4 +508,8 @@ int main(){
 20 30
 10 15
 ```
+
+
+
+
 
