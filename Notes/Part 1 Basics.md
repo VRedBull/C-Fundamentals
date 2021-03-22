@@ -292,9 +292,9 @@ In low-level programming languages like Cpp or C we don't have dynamic arrays. M
 
 But, this is where the pointers come in. We can declare the pointer as an array and specify it's size, but then when we need to change the size the size of the array we can that as well.
 
-What happens when we declare a normal array like. *int A[4];* is memory in stack is allocated to it. And it'll automatically deleted when it'll go out of scope. 
+What happens when we declare a normal array like. *int A[4];* is memory in stack is allocated to it. And it'll automatically be deleted when it'll go out of scope. 
 
-But when we declare a pointer array like. *int *p = new int [4];* this array memory is allocated in heap. And this memory will not be automatically deleted from heap. We must deleted it like *delete []p;*.
+But when we declare a pointer array like. *int *p = new int [4];* this array memory is allocated in heap. And this memory will not be automatically deleted from heap. We must delete it like *delete []p;*.
 
 If we null the pointer before deleting it, it would cause memory leak, which is basically memory loss.
 
