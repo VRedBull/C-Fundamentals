@@ -440,7 +440,7 @@ These are the only operations allowed in pointers. addition and multiplication a
 
    
 
-## Reference
+# Reference
 
 Reference is a powerful tool in c++. And it is only available in C++ and not in any other language.
 
@@ -631,9 +631,9 @@ int main(){
 
   
 
-## Three Parameters passing methods in C++
+# Three Parameters passing methods in C++
 
-### Pass-by-value
+## Pass-by-value
 
 1. Pass-by-value: Values of Actual parameters are passed to formal parameters. Actual parameters cannot be modified by function.
 2. Value of actual parameters are copied in formal parameters. 
@@ -668,7 +668,7 @@ int main(){
 
 
 
-### Pass-by-Address
+## Pass-by-Address
 
 - Address of actual parameters are passed. 
 - Formal parameters must be pointers.
@@ -699,7 +699,7 @@ int main(){
 
 
 
-### Pass-by-Reference
+## Pass-by-Reference
 
 - Actual parameters are passed as reference.
 - Formal parameters can directly access actual parameters.
@@ -731,7 +731,7 @@ int main(){
 
 
 
-### Return by address
+## Return by address
 
 - A function can return address of memory.
 - It should not return address of local variables, which will be disposed after function ends.
@@ -768,7 +768,7 @@ int main()
 
 
 
-### Return by Reference 
+## Return by Reference 
 
 Remember that reference is another name for a already defined variable.
 
