@@ -15,7 +15,4 @@ int main(){
     // ++*ptr2; cannot increment a value of a variable through a const pointer
     ptr2 = &x;  //even though cannot change the value where it points but can change to where it points
 
-    int a{2,4};
-    cout<<a;
-
 }

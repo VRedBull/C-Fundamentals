@@ -4,6 +4,7 @@
         "ostream": "cpp",
         "new": "cpp",
         "iosfwd": "cpp",
-        "optional": "cpp"
+        "optional": "cpp",
+        "memory": "cpp"
     }
 }
